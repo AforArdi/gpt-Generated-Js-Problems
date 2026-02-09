@@ -1,3 +1,4 @@
-function sum(arr){
-    for (let numbers of)
-}
+const myMessage = "I love JavaScript";
+const messageArr = myMessage.trim().split('');
+
+console.log(messageArr);
