@@ -19,7 +19,11 @@ function check(str) {
     if (!hasNumber){
         reasons.push("Must Contian one number");
     }
-    return reasons;
+    let isValid = reasons.length === 0;
+    return {
+        valid: isValid,
+        reasons
+    }
 }
 
 const myPass = "heler";
