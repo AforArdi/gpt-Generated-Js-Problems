@@ -1,10 +1,6 @@
 function queue(numbers, number) {
-    for (let i = 0; i<numbers.length;i++){
-        if (!numbers.includes(number)){
-            numbers.push(number);
-            numbers.shift();
-        }
-    }
+    numbers.push(number);
+    numbers.shift();
     return numbers;
 }
 
