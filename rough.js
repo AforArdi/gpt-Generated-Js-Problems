@@ -1,4 +1,2 @@
-const myMessage = "I love JavaScript";
-const messageArr = myMessage.trim().split('');
-
-console.log(messageArr);
+const randomNumber = Math.floor(Math.random() * (10 - 1 + 1) + 1);
+console.log(randomNumber);
